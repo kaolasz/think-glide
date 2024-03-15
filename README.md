@@ -1,7 +1,11 @@
+# 申明：Fork自 zzstudio/think-glide , 由于原项目未支持thinkphp8，所以fork一份用在tp8上，别无它意。
+## thinkphp6 升级到 thinkphp8 时，可直接卸载原zzstudio/think-glide库，然后安装新库kaolasz/think-glide，代码不用做任何改动。
+
+
 # ThinkPHP6+ 图片动态裁剪缩放库
 
-[Glide](https://github.com/thephpleague/glide) 是一个可以帮助你根据指定参数动态的生成图片内容给浏览器的图片操作库，从而实现
-图片动态裁剪，打水印等，本库对 Glide 进行了一些友好的包装与扩展，屏蔽了原生库的一些底层抽象从而使得 ThinkPHP 用户可以在 ThinkPHP6 项目中
+[Glide](https://github.com/kaolasz/think-glide)  [fork from Glide](https://github.com/thephpleague/glide) 是一个可以帮助你根据指定参数动态的生成图片内容给浏览器的图片操作库，从而实现
+图片动态裁剪，打水印等，本库对 Glide 进行了一些友好的包装与扩展，屏蔽了原生库的一些底层抽象从而使得 ThinkPHP 用户可以在 ThinkPHP8 项目中
 更好的添加图片的动态裁剪功能。
 
 ## Installation
@@ -9,14 +13,14 @@
 执行下面命令安装:
 
 ```bash
-$ composer require zzstudio/think-glide
+$ composer require kaolasz/think-glide
 ```
 
 ## Usage
 
 ### Quick start
 
-- ThinkPHP6 及以上版本使用 middleware 注册：
+- ThinkPHP8 及以上版本使用 middleware 注册：
 
     打开 `application/middleware.php` 文件（如果不存在创建即可），注册 middleware：
     
