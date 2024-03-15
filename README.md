@@ -1,4 +1,4 @@
-# 申明：Fork自 zzstudio/think-glide , 由于原项目未支持thinkphp8，所以fork一份用在tp8上，别无它意。
+## 申明：Fork自 zzstudio/think-glide , 由于原项目未支持thinkphp8，所以fork一份用在tp8上，别无它意。
 ## thinkphp6 升级到 thinkphp8 时，可直接卸载原zzstudio/think-glide库，然后安装新库kaolasz/think-glide，代码不用做任何改动。
 
 
